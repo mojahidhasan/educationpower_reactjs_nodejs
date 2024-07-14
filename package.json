@@ -5,8 +5,8 @@
   "main": "./server/server.js",
   "type": "module",
   "scripts": {
-    "setup": "npm install --prefix ./client && npm install",
-    "production": "npm run build --prefix ./client && node ./server/server.js",
+    "build": "npm install --prefix ./client && npm install && npm run build --prefix ./client",
+    "start": "node ./server/server.js",
     "dev:client": "npm start --prefix ./client",
     "dev:server": "nodemon ./server/server.js"
   },
