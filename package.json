@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mojahidhasan/educationpower-reactjs.git"
+    "url": "git+https://github.com/mojahidhasan/educationpower_reactjs_nodejs.git"
   },
   "author": "mojahid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mojahidhasan/educationpower-reactjs/issues"
+    "url": "https://github.com/mojahidhasan/educationpower_reactjs_nodejs/issues"
   },
-  "homepage": "https://github.com/mojahidhasan/educationpower-reactjs#readme",
+  "homepage": "https://github.com/mojahidhasan/educationpower_reactjs_nodejs#readme",
   "dependencies": {
     "dotenv": "^16.4.5"
   }

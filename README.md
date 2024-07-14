@@ -26,7 +26,6 @@ and then run the command below to install the necessary dependencies for both cl
 
 ```bash
 cd educationpower_reactjs_nodejs #if you are already not in the root directory
-npm run setup
 ```
 
 - **For development**:
@@ -50,9 +49,10 @@ npm run setup
   From the root directory (where .gitignore file is placed), run:
 
   ```bash
-  npm run production
+  npm run build
+  npm run start
   ```
 
   It will run `npm run build` from the client to make an optimized production build and then run the server `node server.js` after that.
 
-  both commands are needed to run otherwise some data from the server won't load such as course data.
+  Both commands are needed to run otherwise some data from the server won't load such as course data.
