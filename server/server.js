@@ -17,8 +17,12 @@ const cors = {
 const website_directory = path.join(__dirname, "../client/build");
 
 const server = http.createServer(async (req, res) => {
+  //heathcheck route here
+  if (req.url === "/healthz" && req.method === "GET") {
+    res.statusCode = 200;
+    res.end("OK");
+  }
   //staic assets routes here
-
   if (
     req.method === "GET" &&
     req.url.startsWith("/build/static") &&
