@@ -1,0 +1,26 @@
+{
+  "name": "educationpower",
+  "version": "1.0.0",
+  "description": "Made with React for front end, and Raw nodejs server.",
+  "main": "./server/server.js",
+  "type": "module",
+  "scripts": {
+    "installDeps": "npm install --prefix ./client && npm install --prefix ./server",
+    "production": "npm run build --prefix ./client && node ./server/server.js",
+    "dev:client": "npm start --prefix ./client",
+    "dev:server": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojahidhasan/educationpower-reactjs.git"
+  },
+  "author": "mojahid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojahidhasan/educationpower-reactjs/issues"
+  },
+  "homepage": "https://github.com/mojahidhasan/educationpower-reactjs#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
