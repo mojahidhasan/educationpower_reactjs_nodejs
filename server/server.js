@@ -8,14 +8,6 @@ import { mimeTypes } from "./constants.js";
 
 config();
 
-const API_URL = process.env.API_URL || "http://localhost:4000";
-
-const url = new URL(API_URL);
-
-const PORT = +url.port;
-
-console.log("listening on port " + typeof PORT);
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const cors = {
@@ -70,6 +62,12 @@ const server = http.createServer(async (req, res) => {
 
   //home page
   if (req.url === "/" && req.method === "GET") {
+    let API_URL;
+    if (req.headers["x-forwarded-proto"] === "https") {
+      API_URL = `https://${req.headers.host}`;
+    } else {
+      API_URL = `http://${req.headers.host}`;
+    }
     readFile(
       path.join(__dirname, "../client/build/index.html"),
       "utf-8",
@@ -173,6 +171,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log("listening on port " + PORT);
+server.listen(process.env.PORT || 4000, () => {
+  console.log("listening on port ");
 });
