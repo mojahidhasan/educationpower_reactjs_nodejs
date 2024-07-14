@@ -12,7 +12,9 @@ const API_URL = process.env.API_URL || "http://localhost:4000";
 
 const url = new URL(API_URL);
 
-const PORT = url.port;
+const PORT = +url.port;
+
+console.log("listening on port " + typeof PORT);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
