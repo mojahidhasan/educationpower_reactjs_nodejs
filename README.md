@@ -56,3 +56,7 @@ cd educationpower_reactjs_nodejs #if you are already not in the root directory
   It will run `npm run build` from the client to make an optimized production build and then run the server `node server.js` after that.
 
   Both commands are needed to run otherwise some data from the server won't load such as course data.
+
+# Credits
+
+- The UI design was taken from some random website that I lost the citation. I will include them in the future upon finding them.
