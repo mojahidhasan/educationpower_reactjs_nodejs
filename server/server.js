@@ -175,6 +175,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(process.env.PORT || 4000, () => {
+server.listen(process.env.PORT || 4000, "0.0.0.0", () => {
   console.log("listening on port " + process.env.PORT || 4000);
 });
