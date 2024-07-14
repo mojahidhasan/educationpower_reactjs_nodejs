@@ -1,18 +1,18 @@
 # Educationpower-reactjs-nodejs
 
-Made with React for front end, and Raw nodejs server.
+Made with React for front end, and Raw NodeJS server.
 
 # Overview
 
 Made Landing page only. An uncompleted website. Only front-end and no back-end functionalities have been added except data in the course section. Courses lists are shown from the server, also you can retrieve more data by clicking the "Explore more" button.
 
-Back end server has been made with a built-in HTTP module of nodejs, no framework has been used to make the server for this simple server.
+Back end server has been made with a built-in HTTP module of NodeJS, no framework has been used to make the server for this simple server.
 
 # Status
 
 This project is an unfinished project and unmaintained. Refactoring has not been done also.
 
-Only the home page and a backup API for retrieving course data serving static data in production, etc. routes were developed. Other functionalities won't work.
+Only the home page and a back-end API for retrieving course data, serving static data in production, etc. routes were developed but other functionalities won't work.
 
 # Work locally
 
