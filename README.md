@@ -9,6 +9,7 @@ Made Landing page only. An uncompleted website. Only front-end and no back-end f
 Back end server has been made with a built-in HTTP module of NodeJS, no framework has been used to make the server for this simple server.
 
 # Preview
+
 - https://educationpower-reactjs-nodejs.onrender.com/, this link may take time on the first run because the free version of the render server spins down with inactivity.
 - https://7d664ed2-87a0-496b-8819-34c0fdf3be57-00-d7evtkbxqjyi.pike.replit.dev/, try this also.
 
@@ -48,6 +49,8 @@ cd educationpower_reactjs_nodejs #if you are already not in the root directory
   # server starts in http://localhost:4000
   ```
 
+  Both commands are needed to run otherwise some data from the server won't load such as course data.
+
 - **For production**:
 
   From the root directory (where .gitignore file is placed), run:
@@ -56,15 +59,13 @@ cd educationpower_reactjs_nodejs #if you are already not in the root directory
   npm run build
   npm run start
   ```
+
   Or
+
   ```bash
   npm run build-start
   #to build and start the server altogether.
   ```
-
-  It will run `npm run build` from the client to make an optimized production build and then run the server `node server.js` after that.
-
-  Both commands are needed to run otherwise some data from the server won't load such as course data.
 
 # Credits
 
