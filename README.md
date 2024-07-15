@@ -10,8 +10,7 @@ Back end server has been made with a built-in HTTP module of NodeJS, no framewor
 
 # Preview
 
-- https://educationpower-reactjs-nodejs.onrender.com/, this link may take time on the first run because the free version of the render server spins down with inactivity.
-- https://7d664ed2-87a0-496b-8819-34c0fdf3be57-00-d7evtkbxqjyi.pike.replit.dev/, try this also.
+- https://educationpower-reactjs-nodejs.onrender.com/, this link may take time on the first run because the free version of the render server spins down with inactivity. It might take 50 seconds to load on first request. So please wait...
 
 # Status
 
