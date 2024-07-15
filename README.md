@@ -64,6 +64,7 @@ cd educationpower_reactjs_nodejs #if you are already not in the root directory
   npm run build
   npm run start
   ```
+  `npm run build` creates a **build** folder in **client** directory where `react-scripts` generates an optimized static files (html, css, js and assets) for production. An then `npm run start` starts a node server that gets static data from `./client/build` to show to the client.
 
   Or
 
