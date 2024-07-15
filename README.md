@@ -8,6 +8,12 @@ Made Landing page only. An uncompleted website. Only front-end and no back-end f
 
 Back end server has been made with a built-in HTTP module of NodeJS, no framework has been used to make the server for this simple server.
 
+# Technologies
+
+1. React v18.2.0
+2. TailwindCSS v3.3.3
+3. Nodejs server (No framework)
+
 # Preview
 
 - https://educationpower-reactjs-nodejs.onrender.com/, this link may take time on the first run because the free version of the render server spins down with inactivity. It might take 50 seconds to load on first request. So please wait...
